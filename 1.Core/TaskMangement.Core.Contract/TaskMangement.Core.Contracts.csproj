@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Persons\Commands\" />
+    <Folder Include="Persons\Queries\" />
+    <Folder Include="Projects\Commands\" />
+    <Folder Include="Projects\Queries\" />
+    <Folder Include="Tasks\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManagement.Core.Domain\TaskManagement.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
